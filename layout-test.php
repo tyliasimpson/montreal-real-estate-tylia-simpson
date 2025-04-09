@@ -1,6 +1,6 @@
 <?php
 // $url = 'http://localhost:8883/sample-page';
-$url = 'http://localhost:8882/cote-sainte-luc-has-always-been-great-opportunity-for-first-time-home-buyers';
+$url = 'http://localhost:8883/?p=6751';
 ?>
 
 <!DOCTYPE html>
