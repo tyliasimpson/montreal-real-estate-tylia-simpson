@@ -23,9 +23,9 @@ add_action( 'wp_enqueue_scripts', 'montreal_real_estate_theme_scripts' );
 function add_my_menus() {
     register_nav_menus(
     array(
-        'header-menu' => __( 'Header Menu', 'montreal-real-estate' ),
-        'footer-menu' => __( 'Footer Menu', 'montreal-real-estate' ),
-        'social-menu' => __( 'Social Menu', 'montreal-real-estate'),
+        'header-menu' => __( 'Header Menu', 'montreal-real-estate-tylia-simpson' ),
+        'footer-menu' => __( 'Footer Menu', 'montreal-real-estate-tylia-simpson' ),
+        'social-menu' => __( 'Social Menu', 'montreal-real-estate-tylia-simpson'),
         // YOU CAN ADD AS MANY MENUS AS YOU WANT HERE
     )
     );

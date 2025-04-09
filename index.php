@@ -14,7 +14,7 @@
             the_content();
         endwhile;
     else :
-        _e( 'Sorry, no posts matched your criteria.', 'montreal-real-estate' );
+        _e( 'Sorry, no posts matched your criteria.', 'montreal-real-estate-tylia-simpson' );
     endif;
     ?>
 
