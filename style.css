@@ -135,8 +135,8 @@
    html, body {font-size: 100%;}
 
 
-  /* TYPESCALE for MOBILE 
-    https://spencermortensen.com/articles/typographic-scale/  */
+  /* TYPESCALE for MOBILE ----------------------------------------------------------------------------------------
+    https://spencermortensen.com/articles/typographic-scale/ */
 
 
   h1 { font-size: 2.5em; }
@@ -455,21 +455,22 @@ ul#menu {
 
 @media screen and (min-width: 60rem) {
 
-   /* TYPESCALE for DESKTOP: ADD CONTRAST   */
+   /* TYPESCALE for DESKTOP: ADD CONTRAST ---------------------------------------------------------------------------  */
 
-h1 { font-size: 3.558em; }
-h2 { font-size: 2.8796em; }
-h3 { font-size: 2.3306em; }
-h4 { font-size: 1.8863em; }
-h5 { font-size: 1.5266em; }
-h6 { font-size: 1.2356em; }
-small { font-size: .8093em; }
+h1 { font-size: 2.3em; }
+h2 { font-size: 2.0019em; }
+h3 { font-size: 1.7424em; }
+h4 { font-size: 1.5166em; }
+h5 { font-size: 1.32em; }
+h6 { font-size: 1.1489em; }
+p { font-size: 1em; }
+small { font-size: .8704em; }
 
 legend {font-size: 2.3306em; } /* h3 */
 label {font-size: 1.8863em;}   /* h4 */
 figcaption { font-size: .8093em;}  /* small */
 
-} /* READJUST FONT SCALE BECAUSE YOU HAVE MORE ROOM NOW */  
+ /* READJUST FONT SCALE BECAUSE YOU HAVE MORE ROOM NOW */  
 
 
 
