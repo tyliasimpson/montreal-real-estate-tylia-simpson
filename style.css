@@ -141,8 +141,8 @@
 
   h1 { font-size: 2.5em; }
   h2 { font-size: 2.1459em; }
-  h3 { font-size: 1.842em; }
-  h4 { font-size: 1.5811em; }
+  h3 { font-size: 1.7em; }
+  h4 { font-size: 1.5em; }
   h5 { font-size: 1.3572em; }
   h6 { font-size: 1.165em; }
   p { font-size: 1em; }
@@ -243,7 +243,7 @@ header .branding {
 
  h2 {margin: 3rem 0 1rem 0}
  
- h3 {margin: 2rem 0 1rem 0}
+ h3 {margin: 2rem 0 1rem 0;}
  
  h4 {margin: 2rem 0 1rem 0}
 
@@ -302,7 +302,7 @@ header .branding {
   
   h2+table {margin: 0.5rem 0 0 2rem 0;} 
 
-  h2+h3 {margin: 1.3rem 0 1rem 0}
+  h2+h3 {margin: 1.3rem 0 1rem 0;}
   
   table {}
   
@@ -458,10 +458,10 @@ ul#menu {
    /* TYPESCALE for DESKTOP: ADD CONTRAST ---------------------------------------------------------------------------  */
 
 h1 { font-size: 2.3em; }
-h2 { font-size: 2.0019em; }
-h3 { font-size: 1.7424em; }
+h2 { font-size: 2.1em; }
+h3 { font-size: 1.6em; }
 h4 { font-size: 1.5166em; }
-h5 { font-size: 1.32em; }
+h5 { font-size: 1.3em; }
 h6 { font-size: 1.1489em; }
 p { font-size: 1em; }
 small { font-size: .8704em; }
