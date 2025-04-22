@@ -226,7 +226,11 @@ header .branding {
  .primary-menu li a:visited {color: var(--topNav-link-color-visited);}
  .primary-menu li a:hover {color: var(--topNav-link-color-hover);}
  .primary-menu li a:active {color: var(--topNav-link-color-active);}
-  
+
+ .flex-container {
+  padding: 0 0.75rem 0 0.75rem;
+  }
+
  .flex-container h1 {
   width: 90vw;
   margin: 0 auto;
@@ -237,7 +241,7 @@ header .branding {
  }
   
  h1 {
-  margin: 2rem 0 1rem 0;
+  margin: 0.75rem;
   line-height: 1.2;
 }
 
@@ -445,6 +449,39 @@ ul#menu {
     text-decoration: none;
     padding: 0 0.95rem;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
