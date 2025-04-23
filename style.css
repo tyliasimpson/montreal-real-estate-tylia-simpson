@@ -67,6 +67,11 @@
 */
 
 
+@import url(css/mobile-nav.css);
+@import url(css/desktop-nav.css);
+@import url(css/contact.css);
+
+
 /* COLOR PALETTE & FONTS VARIABLES  */
 
 :root {
@@ -586,6 +591,55 @@ ul#menu {
 
 } /* NEVER DELETE THIS BRACKET - IT CLOSES THE 60rem MEDIA QUERY */
   
+
+/* SMARTPHONE SCREEN (PORTRAIT) ------------------------------------------------------------ */
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+
+  header {
+      background-image: url(img/background-960px.jpg);
+      /* this image will be used on any screen smaller than 480px wide */
+  }
+}
+
+
+/* SMARTPHONE SCREEN (LANDSCAPE) ------------------------------------------------------------ */
+
+@media screen and (max-width: 960px) and (orientation: landscape) {
+
+  header {
+      background-image: url(img/background-1920px.jpg);
+      /* this image will be used on any screen smaller than 960px wide */
+  }
+}
+
+
+
+
+/* SMALL SCREEN ------------------------------------------------------------ */
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+  header {
+      background-image: url(img/background-2048px.jpg);
+      /* this image will be used on any screen wider than 480px wide 
+         and narrower than 1024px wide */
+  }
+}
+
+
+
+
+/* MEDIUM SCREEN  ------------------------------------------------------------ */
+
+@media screen and (min-width: 1025px) and (max-width: 2048px) {
+
+  header {
+      background-image: url(img/background-4096px.jpg);
+      /* this image will be used on any screen wider than 1024px wide 
+         and narrower than 2048px wide */
+  }
+}
 
 
 /* ADD MORE MEDIA QUERIES AS NECESSARY */
